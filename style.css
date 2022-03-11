@@ -125,3 +125,19 @@ h3 {
 .logo {
     border-radius: 50px;   
 }
+
+.imageArticle {
+    max-width: 100%;
+}
+
+.post_footer {
+    background-color: #686868;
+}
+
+.post_footer_content {
+    margin: 0px;
+    padding: 7px 20px;
+    background-color: #262626;
+    color: #499531;
+    font-style: italic;
+}
