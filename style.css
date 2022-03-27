@@ -24,7 +24,6 @@ body {
 .nom_site {
     padding: 10px;
     color: #499531;
-    display: inline-block;
     width: 300px;
     margin: 20px 50px 20px 20px;
     border-right: solid;
@@ -127,7 +126,7 @@ h3 {
 }
 
 .imageArticle {
-    max-width: 100%;
+    width: 100%;
 }
 
 .post_footer {
@@ -142,6 +141,26 @@ h3 {
     font-style: italic;
 }
 
+.pres_ArVuhez {
+    display: flex;
+    background-color: #499531;
+    padding: 10px;
+}
+
+.av {
+    color: #262626;
+    width: 600px;
+    margin: 20px 50px 20px 20px;
+    border-right: solid;
+}
+
+.prest {
+    color: #262626;
+    margin: 20px 20px 20px;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
 @media only screen and (max-width: 980px) {
     .post {
         width: 80%;
@@ -149,6 +168,12 @@ h3 {
     }
 
     .post_content {
+        font-size: 27px;
+        line-height: 37px;
+    }
+
+
+    .pres {
         font-size: 27px;
         line-height: 37px;
     }
